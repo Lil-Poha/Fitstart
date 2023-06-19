@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/crot"
+        android:label="Fit start"
+        android:roundIcon="@drawable/crot"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Test"
+        tools:targetApi="31">
+        <activity
+            android:name=".razgibanie_ruuk"
+            android:exported="false" />
+        <activity
+            android:name=".tyaga_v_planke"
+            android:exported="false" />
+        <activity
+            android:name=".stanovaia_tyaga_s_gantelyami"
+            android:exported="false" />
+        <activity
+            android:name=".mishsi_na_spinu"
+            android:exported="false" />
+        <activity
+            android:name=".razgibanie_za_golovoi"
+            android:exported="false" />
+        <activity
+            android:name=".ganteli_obratnim_hvatom"
+            android:exported="false" />
+        <activity
+            android:name=".ganteli_na_plechi"
+            android:exported="false" />
+        <activity
+            android:name=".ganteli_na_biceps"
+            android:exported="false" />
+        <activity
+            android:name=".mischsi_na_ruki"
+            android:exported="false" />
+        <activity
+            android:name=".mishsci_kachat"
+            android:exported="false" />
+        <activity
+            android:name=".standart_prised"
+            android:exported="false" />
+        <activity
+            android:name=".mahi_nogami"
+            android:exported="false" />
+        <activity
+            android:name=".prisenadie_viprig"
+            android:exported="false" />
+        <activity
+            android:name=".beg_na_meste"
+            android:exported="false" />
+        <activity
+            android:name=".vipadi_na_nogi"
+            android:exported="false" />
+        <activity
+            android:name=".pohudenie_nogi"
+            android:exported="false" />
+        <activity
+            android:name=".alpenist"
+            android:exported="false" />
+        <activity
+            android:name=".planka_del"
+            android:exported="false" />
+        <activity
+            android:name=".bokovie_nakloni_k_stopam"
+            android:exported="false" />
+        <activity
+            android:name=".nozhnitsi"
+            android:exported="false" />
+        <activity
+            android:name=".scruchivanie"
+            android:exported="false" />
+        <activity
+            android:name="com.example.nakon.pitvoda"
+            android:exported="false" />
+        <activity
+            android:name="com.example.nakon.nakoleni"
+            android:exported="false" />
+        <activity
+            android:name="com.example.nakon.shirok"
+            android:exported="false" />
+        <activity
+            android:name=".almaz_otzhimanie"
+            android:exported="false" />
+        <activity
+            android:name=".otzhimanie_s_uporop_na_koleni"
+            android:exported="false" />
+        <activity
+            android:name=".otzimanie_soporoi_szadi"
+            android:exported="false" />
+        <activity
+            android:name=".otzimanie_s_oporoi"
+            android:exported="false" />
+        <activity
+            android:name=".prizhki_zvezdoi"
+            android:exported="false" />
+        <activity
+            android:name=".pohudeniegrudtwo"
+            android:exported="false" />
+        <activity
+            android:name=".pohudeniepres"
+            android:exported="false" />
+        <activity
+            android:name=".pohudenienagrud"
+            android:exported="false" />
+        <activity
+            android:name=".pohudene"
+            android:exported="false" />
+        <activity
+            android:name=".raschetimt"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="home" />
+        <activity
+            android:name=".zagr"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

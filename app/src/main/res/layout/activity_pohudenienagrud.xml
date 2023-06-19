@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".pohudenienagrud">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="gonapohudenie"
+        android:text="Назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="61dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045"
+        app:srcCompat="@drawable/pip" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="394dp"
+        android:layout_height="39dp"
+        android:fontFamily="@font/otonto"
+        android:gravity="center"
+        android:text="Упражнения на грудь"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="591dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.741">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="392dp"
+                android:layout_height="166dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="235dp"
+                    android:layout_height="wrap_content"
+                    android:text="Прыжки звездой"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="380dp"
+                    android:layout_height="123dp"
+                    android:gravity="center"
+                    android:text="Описание: Сделайте резкий короткий выдох, слегка подпрыгните и расставьте ноги широко. Одновременно с этим, маховым движением поднимите руки над головой и сделайте хлопок в ладоши. На вдохе снова оттолкнитесь от пола и легким прыжком вернитесь в исходную позицию."
+                    android:textColor="#757575"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="384dp"
+                android:layout_height="124dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="274dp"
+                    android:layout_height="34dp"
+                    android:text="Отжимание с опорой впереди"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:text="Описание: удобно на ширине плеч поставьте руки на опору как при обычных отжиманиях, опускаясь локти направлены примерно под углом 45-50 градусов от туловища, затем плавно вернуться в исходное положение." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="395dp"
+                android:layout_height="224dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Отжимание с опорой сзади"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="384dp"
+                    android:layout_height="201dp"
+                    android:gravity="center"
+                    android:text="Описание: Упираемся ладонями в скамью так, чтобы руки были на одинаковом расстоянии от условной линии позвоночника. Лучше не отставлять ладони более, чем на 5-7 см по разные стороны от боков; колени чуть сгибаем, и ноги жестко фиксируем; сгибаем руки в локтевых и плечевых суставах одновременно, опускаемся тазом вниз до уровня, когда предплечья станут параллельными полу; с выдохом разгибаем руки, согнутые в локтях"
+                    android:textColor="#757575" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Отжимания с упором на колени"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="390dp"
+                    android:layout_height="113dp"
+                    android:gravity="center"
+                    android:text="Описание: руки прямые, запястья расположены точно под плечевыми суставами, спина и ноги прямые, упор на «носочки», ягодичные мышцы сокращены. Затем опустите колени на пол, ноги держите параллельно или скрестите в лодыжках. Статически напрягите пресс"
+                    android:textColor="#757575" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Отжимание с широким упором"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="390dp"
+                    android:layout_height="130dp"
+                    android:gravity="center"
+                    android:text="Описание: Примите положение для отжиманий от пола с широким положением рук. Ладони развёрнуты в стороны. Удерживайте тело на прямых руках и носках. Не опускайте таз. Это исходное положение. Сгибая локти, опуститесь грудью к полу. На выдохе, напрягая грудные мышцы и выпрямляя локти, поднимитесь в исходное положение." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Алмазные отжимания"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="383dp"
+                    android:layout_height="152dp"
+                    android:gravity="center"
+                    android:text="Описание: Поместите ладони близко друг к другу под грудной клеткой, соединив большие и указательные пальцы, образовав форму треугольника. Стопы поставьте по ширине таза и напрягите мышцы живота. Не прогибайте поясницу, соберите лопатки. На вдохе сгибайте локти и опускайте центр грудной клетки к ладоням. На выдохе вернитесь в исходное положение."
+                    android:textColor="#757575" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
